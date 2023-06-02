@@ -81,3 +81,57 @@ ul li.active a{
     background-color: #fff;
     color:#000;   
 }
+@media screen and (min-width:320px){
+    .title h1{
+        color: #fff;
+        font-size: 17px;
+    }
+    
+    
+}
+@media screen and (min-width:768px){
+    .title h1{
+        color: #fff;
+        font-size: 40px;
+    }
+    @media screen and (min-width:1024px){
+        .title h1{
+            color: #fff;
+            font-size: 56px;
+        }
+         @media screen and (min-width:2560px){
+            .title h1{
+                color: #fff;
+                font-size: 90px;
+            }
+}
+.Abouttitle{
+    color: rgb(231, 205, 15);
+    border-color: #aa8b0e;
+    position:absolute;
+    top: 5%;
+    left:  50%;
+    transform:translate(-50%,-50%);
+}
+.aboutimg{
+    float: none;
+
+}
+.abouttext{
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    text-size-adjust:inherit;
+    color: #fff;
+    position:fixed;
+    top: 20%;
+    left: 20px;
+    
+   
+}
+.note{
+    width: 100%;
+    font-size:large;
+    position:fixed;
+    top: 20%;
+    left: 50px;  
+}
