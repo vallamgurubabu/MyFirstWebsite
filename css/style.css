@@ -110,10 +110,11 @@ ul li.active a{
    
 }
 .note{
+    text-align: center;
     background-color: #aa8b0e;
     width: 100%;
     font-size:large;
-    position:fixed;
+    position:relative;
     top: 20%;
-    left: 50px;  
+    left: 0px;  
 }
